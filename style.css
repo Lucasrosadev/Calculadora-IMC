@@ -1,0 +1,59 @@
+        h1{
+            color: rgb(124, 14, 151);
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            font: normal 18pt Arial;
+            background-color: rgb(141, 141, 255);
+
+             /* Centralização */
+            display: flex;
+            flex-direction: column;   /* Mantém os elementos em coluna */
+            justify-content: center;  /* Centraliza verticalmente */
+            align-items: center;      /* Centraliza horizontalmente */
+            height: 100vh;            /* Faz o body ocupar a tela toda */
+            margin: 0;                /* Remove margem padrão */
+        }
+
+        .container {
+            display: flex;           /* deixa os inputs lado a lado */
+            gap: 10px;               /* espaço entre eles */
+            align-items: center;
+        }
+
+        input {
+            font: normal 18pt Arial;
+            width: 100px;
+        }
+
+        #but {
+           background-color: rgb(175, 68, 202);
+           color: white;
+           margin-top: 10px;
+           border-radius: 10% 10% 10% 10%;
+
+        }
+
+        #but:hover {
+            background-color: rgb(124, 14, 151);
+            color:white;
+            
+        }
+
+
+        div#resposta{
+            margin-top: 20px;
+        }
+
+        @media screen and (min-width:1024px) {
+            
+        }
+
+        @media screen and (min-width:767px) and (max-width: 1023) {
+            
+        }
+
+        @media screen and (max-width: 767px) {
+            
+        }
