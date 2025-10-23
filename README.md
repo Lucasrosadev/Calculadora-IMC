@@ -29,3 +29,5 @@ JavaScript → Cálculo do IMC e interatividade
 ---
 
 # 📸 Preview
+
+![Calculadora IMC](calculadora_imc_imagem.png)
